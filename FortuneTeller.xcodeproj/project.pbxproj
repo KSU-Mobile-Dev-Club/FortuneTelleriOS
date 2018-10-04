@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4CDB712165A2C6003ED6A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDB702165A2C6003ED6A1 /* AppDelegate.swift */; };
+		ED4CDB732165A2C6003ED6A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDB722165A2C6003ED6A1 /* ViewController.swift */; };
+		ED4CDB762165A2C6003ED6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDB742165A2C6003ED6A1 /* Main.storyboard */; };
+		ED4CDB782165A2CE003ED6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDB772165A2CE003ED6A1 /* Assets.xcassets */; };
+		ED4CDB7B2165A2CE003ED6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDB792165A2CE003ED6A1 /* LaunchScreen.storyboard */; };
+		ED4CDB862165A2CE003ED6A1 /* FortuneTellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDB852165A2CE003ED6A1 /* FortuneTellerTests.swift */; };
+		ED4CDB912165A2CE003ED6A1 /* FortuneTellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDB902165A2CE003ED6A1 /* FortuneTellerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4CDB822165A2CE003ED6A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4CDB652165A2C5003ED6A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4CDB6C2165A2C5003ED6A1;
+			remoteInfo = FortuneTeller;
+		};
+		ED4CDB8D2165A2CE003ED6A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4CDB652165A2C5003ED6A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4CDB6C2165A2C5003ED6A1;
+			remoteInfo = FortuneTeller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4CDB6D2165A2C5003ED6A1 /* FortuneTeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneTeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4CDB702165A2C6003ED6A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED4CDB722165A2C6003ED6A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED4CDB752165A2C6003ED6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4CDB772165A2CE003ED6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4CDB7A2165A2CE003ED6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4CDB7C2165A2CE003ED6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4CDB812165A2CE003ED6A1 /* FortuneTellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneTellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4CDB852165A2CE003ED6A1 /* FortuneTellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTellerTests.swift; sourceTree = "<group>"; };
+		ED4CDB872165A2CE003ED6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4CDB8C2165A2CE003ED6A1 /* FortuneTellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneTellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4CDB902165A2CE003ED6A1 /* FortuneTellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTellerUITests.swift; sourceTree = "<group>"; };
+		ED4CDB922165A2CE003ED6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4CDB6A2165A2C5003ED6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4CDB7E2165A2CE003ED6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4CDB892165A2CE003ED6A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4CDB642165A2C5003ED6A1 = {
+			isa = PBXGroup;
+			children = (
+				ED4CDB6F2165A2C6003ED6A1 /* FortuneTeller */,
+				ED4CDB842165A2CE003ED6A1 /* FortuneTellerTests */,
+				ED4CDB8F2165A2CE003ED6A1 /* FortuneTellerUITests */,
+				ED4CDB6E2165A2C5003ED6A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4CDB6E2165A2C5003ED6A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDB6D2165A2C5003ED6A1 /* FortuneTeller.app */,
+				ED4CDB812165A2CE003ED6A1 /* FortuneTellerTests.xctest */,
+				ED4CDB8C2165A2CE003ED6A1 /* FortuneTellerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4CDB6F2165A2C6003ED6A1 /* FortuneTeller */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDB702165A2C6003ED6A1 /* AppDelegate.swift */,
+				ED4CDB722165A2C6003ED6A1 /* ViewController.swift */,
+				ED4CDB742165A2C6003ED6A1 /* Main.storyboard */,
+				ED4CDB772165A2CE003ED6A1 /* Assets.xcassets */,
+				ED4CDB792165A2CE003ED6A1 /* LaunchScreen.storyboard */,
+				ED4CDB7C2165A2CE003ED6A1 /* Info.plist */,
+			);
+			path = FortuneTeller;
+			sourceTree = "<group>";
+		};
+		ED4CDB842165A2CE003ED6A1 /* FortuneTellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDB852165A2CE003ED6A1 /* FortuneTellerTests.swift */,
+				ED4CDB872165A2CE003ED6A1 /* Info.plist */,
+			);
+			path = FortuneTellerTests;
+			sourceTree = "<group>";
+		};
+		ED4CDB8F2165A2CE003ED6A1 /* FortuneTellerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CDB902165A2CE003ED6A1 /* FortuneTellerUITests.swift */,
+				ED4CDB922165A2CE003ED6A1 /* Info.plist */,
+			);
+			path = FortuneTellerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4CDB6C2165A2C5003ED6A1 /* FortuneTeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4CDB952165A2CE003ED6A1 /* Build configuration list for PBXNativeTarget "FortuneTeller" */;
+			buildPhases = (
+				ED4CDB692165A2C5003ED6A1 /* Sources */,
+				ED4CDB6A2165A2C5003ED6A1 /* Frameworks */,
+				ED4CDB6B2165A2C5003ED6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneTeller;
+			productName = FortuneTeller;
+			productReference = ED4CDB6D2165A2C5003ED6A1 /* FortuneTeller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4CDB802165A2CE003ED6A1 /* FortuneTellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4CDB982165A2CE003ED6A1 /* Build configuration list for PBXNativeTarget "FortuneTellerTests" */;
+			buildPhases = (
+				ED4CDB7D2165A2CE003ED6A1 /* Sources */,
+				ED4CDB7E2165A2CE003ED6A1 /* Frameworks */,
+				ED4CDB7F2165A2CE003ED6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4CDB832165A2CE003ED6A1 /* PBXTargetDependency */,
+			);
+			name = FortuneTellerTests;
+			productName = FortuneTellerTests;
+			productReference = ED4CDB812165A2CE003ED6A1 /* FortuneTellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED4CDB8B2165A2CE003ED6A1 /* FortuneTellerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4CDB9B2165A2CE003ED6A1 /* Build configuration list for PBXNativeTarget "FortuneTellerUITests" */;
+			buildPhases = (
+				ED4CDB882165A2CE003ED6A1 /* Sources */,
+				ED4CDB892165A2CE003ED6A1 /* Frameworks */,
+				ED4CDB8A2165A2CE003ED6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4CDB8E2165A2CE003ED6A1 /* PBXTargetDependency */,
+			);
+			name = FortuneTellerUITests;
+			productName = FortuneTellerUITests;
+			productReference = ED4CDB8C2165A2CE003ED6A1 /* FortuneTellerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4CDB652165A2C5003ED6A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Steven Blair";
+				TargetAttributes = {
+					ED4CDB6C2165A2C5003ED6A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ED4CDB802165A2CE003ED6A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED4CDB6C2165A2C5003ED6A1;
+					};
+					ED4CDB8B2165A2CE003ED6A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED4CDB6C2165A2C5003ED6A1;
+					};
+				};
+			};
+			buildConfigurationList = ED4CDB682165A2C5003ED6A1 /* Build configuration list for PBXProject "FortuneTeller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4CDB642165A2C5003ED6A1;
+			productRefGroup = ED4CDB6E2165A2C5003ED6A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4CDB6C2165A2C5003ED6A1 /* FortuneTeller */,
+				ED4CDB802165A2CE003ED6A1 /* FortuneTellerTests */,
+				ED4CDB8B2165A2CE003ED6A1 /* FortuneTellerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4CDB6B2165A2C5003ED6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4CDB7B2165A2CE003ED6A1 /* LaunchScreen.storyboard in Resources */,
+				ED4CDB782165A2CE003ED6A1 /* Assets.xcassets in Resources */,
+				ED4CDB762165A2C6003ED6A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4CDB7F2165A2CE003ED6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4CDB8A2165A2CE003ED6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4CDB692165A2C5003ED6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4CDB732165A2C6003ED6A1 /* ViewController.swift in Sources */,
+				ED4CDB712165A2C6003ED6A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4CDB7D2165A2CE003ED6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4CDB862165A2CE003ED6A1 /* FortuneTellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4CDB882165A2CE003ED6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4CDB912165A2CE003ED6A1 /* FortuneTellerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4CDB832165A2CE003ED6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4CDB6C2165A2C5003ED6A1 /* FortuneTeller */;
+			targetProxy = ED4CDB822165A2CE003ED6A1 /* PBXContainerItemProxy */;
+		};
+		ED4CDB8E2165A2CE003ED6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4CDB6C2165A2C5003ED6A1 /* FortuneTeller */;
+			targetProxy = ED4CDB8D2165A2CE003ED6A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED4CDB742165A2C6003ED6A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4CDB752165A2C6003ED6A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4CDB792165A2CE003ED6A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4CDB7A2165A2CE003ED6A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4CDB932165A2CE003ED6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4CDB942165A2CE003ED6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4CDB962165A2CE003ED6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneTeller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.steven.FortuneTeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4CDB972165A2CE003ED6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneTeller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.steven.FortuneTeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED4CDB992165A2CE003ED6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneTellerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.steven.FortuneTellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneTeller.app/FortuneTeller";
+			};
+			name = Debug;
+		};
+		ED4CDB9A2165A2CE003ED6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneTellerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.steven.FortuneTellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneTeller.app/FortuneTeller";
+			};
+			name = Release;
+		};
+		ED4CDB9C2165A2CE003ED6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneTellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.steven.FortuneTellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortuneTeller;
+			};
+			name = Debug;
+		};
+		ED4CDB9D2165A2CE003ED6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneTellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.steven.FortuneTellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortuneTeller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4CDB682165A2C5003ED6A1 /* Build configuration list for PBXProject "FortuneTeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4CDB932165A2CE003ED6A1 /* Debug */,
+				ED4CDB942165A2CE003ED6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4CDB952165A2CE003ED6A1 /* Build configuration list for PBXNativeTarget "FortuneTeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4CDB962165A2CE003ED6A1 /* Debug */,
+				ED4CDB972165A2CE003ED6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4CDB982165A2CE003ED6A1 /* Build configuration list for PBXNativeTarget "FortuneTellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4CDB992165A2CE003ED6A1 /* Debug */,
+				ED4CDB9A2165A2CE003ED6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4CDB9B2165A2CE003ED6A1 /* Build configuration list for PBXNativeTarget "FortuneTellerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4CDB9C2165A2CE003ED6A1 /* Debug */,
+				ED4CDB9D2165A2CE003ED6A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4CDB652165A2C5003ED6A1 /* Project object */;
+}
